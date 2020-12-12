@@ -1,8 +1,19 @@
 
-var lista = [“Alemanha”, “Inglaterra”, “Escócia”]/
-lista.push(“Polônia”);
-lista.pop(“Inglaterra”);
+function clickMe(){
+    document.getElementById("thanks").innerHTML = "Obrigado por Clicar";
+}
 
+function redirecionar(){
+    window.open("https://www.google.com/");
+}
+
+function trocarTexto(element){
+    element.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(element){
+    element.innerHTML = "Passe o mouse  aqui";
+}
 
 /*
 var i;
